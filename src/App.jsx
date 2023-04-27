@@ -13,7 +13,7 @@ const App = (props) => {
   }, []);
   return (
     <div className="app">
-      <Router>
+      <Router basename={"/linkedin_app"}>
         <Routes>
           <Route path="/" element={<Login />} />
           <Route
